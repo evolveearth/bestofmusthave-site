@@ -1,0 +1,183 @@
+/* ==========================================================
+   CHAKRAS-V3.CSS v3.0.5 — object layer on top of chakras.css v2
+   ----------------------------------------------------------
+   LOAD ORDER (in <head>, after chakras.css):
+     <link rel="stylesheet" href="https://css.evolveearth.com/chakras.css">
+     <link rel="stylesheet" href="https://evolveearth.com/assets/v3/chakras-v3.css?v=3.0.5">
+     <script src="https://evolveearth.com/assets/v3/chakra-shell.js?v=3.0.5" defer></script>
+   chakras.css v2 is NOT changed. This file only adds:
+     A. Responsive boxes (container queries: text scales to its BOX,
+        not the screen)
+     B. TEXT BUDGETS (self-describing: every box says how much text
+        it holds and how big that text may be)
+     C. Universal header  (.ee-uh-*)   — same on every site
+     D. Simple page footer (.ee-pf-*)  — menu like the header
+     E. Object review footer (.ee-obj-review) — testnet only
+   Uses only v2 tokens: --bg --surface --soft --ink --ink-soft
+   --line --link --action --on-action --font-display --font-body
+   --radius-card --radius-button --space-* --ease --page-width
+   ========================================================== */
+
+/* ---------- B. TEXT BUDGETS — the rules every writer/agent follows ----------
+   Box            selector              max chars  max lines  text size (min → max)
+   ------------   -------------------   ---------  ---------  ---------------------
+   Hero title     .hero h1, h1          60         2 (3 phone) 32px → 76px
+   Section title  .section h2, h2       70         2           26px → 44px
+   Card title     .card h3, h3          48         2           18px → 22px
+   Lead line      .lead                 220        4           17px → 21px
+   Body (card)    .card p, .panel p     280        6           15px → 17px
+   Body (section) .section p            520        9           16px → 18px
+   Kicker/label   .kicker, .label       32         1           12px → 13px
+   Button         .btn                  24         1           14px → 16px
+   Nav link       .ee-uh-nav a          18         1           14px → 15px
+   Footer column  .ee-pf-col            120        5           13px → 15px
+   Over budget? Live sites never hide text; the testnet review footer
+   flags it (chakra-shell.js reads these numbers). data-budget="clip" on <html> clips with "…".
+   Override per box:  <p data-budget="140" data-lines="3">
+   ------------------------------------------------------------------------- */
+:root{
+  --budget-h1:60;  --lines-h1:2;
+  --budget-h2:70;  --lines-h2:2;
+  --budget-h3:48;  --lines-h3:2;
+  --budget-lead:220; --lines-lead:4;
+  --budget-card:280; --lines-card:6;
+  --budget-body:520; --lines-body:9;
+  --budget-kicker:32; --budget-btn:24; --budget-nav:18; --budget-foot:120;
+  --uh-height:64px;
+  --dusk:#1E2433;            /* shadow (unhealed) ground — only for shadow content */
+  --dusk-ink:#F4F2EE;
+}
+
+/* ---------- A. RESPONSIVE BOXES ---------- */
+.hero,.section,.card,.panel,.container,.ee-pf,.ee-box{container-type:inline-size}
+.card,.panel{min-width:0;overflow-wrap:anywhere;hyphens:auto}
+.grid{display:grid;gap:var(--space-5);grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+
+/* text sizes follow the box width (cqi), clamped to the budget table */
+h1,.display{font-size:clamp(32px,9cqi,76px);line-height:1.05;text-wrap:balance}
+h2{font-size:clamp(26px,6cqi,44px);line-height:1.12;text-wrap:balance}
+h3{font-size:clamp(18px,4.2cqi,22px);line-height:1.25;text-wrap:balance}
+.lead{font-size:clamp(17px,3.2cqi,21px);max-inline-size:60ch;text-wrap:pretty}
+.section p{font-size:clamp(16px,2.6cqi,18px);max-inline-size:68ch;text-wrap:pretty}
+.card p,.panel p{font-size:clamp(15px,4cqi,17px);max-inline-size:none}
+.kicker,.label{font-size:clamp(12px,2.4cqi,13px);max-inline-size:100%}
+.btn{max-inline-size:100%}
+
+/* line budgets: OFF on live sites (no text is ever hidden from visitors).
+   Turn on per page with <html data-budget="clip">; the testnet flags overruns instead. */
+[data-budget="clip"] :is(.hero h1,.card h3,.card p,.panel p,.lead,[data-lines]){display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+[data-budget="clip"] .hero h1{-webkit-line-clamp:var(--lines-h1)}
+[data-budget="clip"] .card h3{-webkit-line-clamp:var(--lines-h3)}
+[data-budget="clip"] .lead{-webkit-line-clamp:var(--lines-lead)}
+[data-budget="clip"] :is(.card p,.panel p){-webkit-line-clamp:var(--lines-card)}
+[data-budget="clip"] [data-lines="1"]{-webkit-line-clamp:1}[data-budget="clip"] [data-lines="2"]{-webkit-line-clamp:2}
+[data-budget="clip"] [data-lines="3"]{-webkit-line-clamp:3}[data-budget="clip"] [data-lines="4"]{-webkit-line-clamp:4}
+[data-budget="clip"] [data-lines="5"]{-webkit-line-clamp:5}[data-budget="clip"] [data-lines="6"]{-webkit-line-clamp:6}
+@container (max-width:420px){ [data-budget="clip"] .hero h1{-webkit-line-clamp:3} .card{padding:var(--space-4)} }
+
+/* shadow content on dusk, dawn gradient back to white */
+.is-shadow{background:var(--dusk);color:var(--dusk-ink)}
+.is-shadow + .is-dawn,.is-dawn{background:linear-gradient(180deg,var(--dusk) 0%,var(--bg,#fff) 100%)}
+
+/* ---------- C. UNIVERSAL HEADER ---------- */
+.site-header,.ee-universal-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg,#fff) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line,rgba(20,17,15,.1))}
+.ee-uh-bar{display:flex;align-items:center;gap:var(--space-4);min-height:var(--uh-height);max-width:var(--page-width);margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+.ee-uh-left{display:flex;align-items:center;gap:var(--space-4);min-width:0;flex:1 1 auto}
+.ee-uh-brand{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:600;color:var(--ink);white-space:nowrap;text-decoration:none}
+.ee-uh-brand .logo-mark{flex:none}
+.ee-uh-crumbs{display:flex;align-items:center;gap:6px;min-width:0;font-size:13px;color:var(--ink-soft)}
+.ee-uh-crumbs a{color:var(--ink-soft);text-decoration:none}
+.ee-uh-crumbs a:hover{color:var(--ink)}
+.ee-uh-crumb-sep{opacity:.45}
+.ee-uh-here{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-inline-size:38ch;color:var(--ink);font-weight:500}
+.ee-uh-nav{display:flex;align-items:center;gap:var(--space-1);flex:none}
+.ee-uh-nav a{font-size:15px;padding:8px 12px;border-radius:var(--radius-button,999px);color:var(--ink-soft);white-space:nowrap;max-inline-size:calc(var(--budget-nav) * 1ch);overflow:hidden;text-overflow:ellipsis;text-decoration:none}
+.ee-uh-nav a:hover,.ee-uh-nav a.is-active{color:var(--ink);background:var(--soft,rgba(20,17,15,.05))}
+.ee-uh-nav a.btn,.ee-uh-nav button.btn{color:var(--on-action,#fff);background:var(--action);max-inline-size:none;font-size:15px;padding:8px 14px;border-radius:var(--radius-button,999px);border:0;font-family:var(--font-body);font-weight:600;cursor:pointer;white-space:nowrap}
+.ee-uh-nav form{display:inline-flex;margin:0}
+.ee-uh-toggle{appearance:none;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:var(--radius-button,999px);padding:8px 14px;font:500 14px/1 var(--font-body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.ee-uh-toggle:hover{background:var(--soft)}
+.ee-uh-toggle .ee-uh-dot{width:8px;height:8px;border-radius:50%;background:var(--action)}
+.ee-uh-drawer{border-top:1px solid var(--line);background:var(--bg,#fff)}
+.ee-uh-drawer[hidden]{display:none}
+.ee-uh-drawer-inner{max-width:var(--page-width);margin:0 auto;padding:var(--space-5) clamp(16px,4vw,48px) var(--space-6);display:grid;gap:var(--space-5);grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
+.ee-uh-group h4{margin:0 0 var(--space-2);font:600 12px/1.2 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.ee-uh-group a{display:block;padding:6px 0;color:var(--ink);font-size:15px;text-decoration:none}
+.ee-uh-group a small{display:block;color:var(--ink-soft);font-size:13px;line-height:1.35}
+.ee-uh-group a.is-current{font-weight:600}
+.ee-uh-group a.is-current::before{content:"→ ";color:var(--action)}
+.ee-uh-pages a{display:inline-block;margin:0 var(--space-3) var(--space-2) 0}
+/* The Menu button and its drop-down only exist on small screens. Wide screens show the header links only. */
+@media (min-width:861px){
+  .ee-uh-toggle,.ee-uh-drawer{display:none!important}
+}
+
+/* ---------- D. SIMPLE PAGE FOOTER ---------- */
+.ee-pf{border-top:1px solid var(--line);margin-top:var(--space-8);padding:var(--space-7) 0 var(--space-6);font-size:clamp(13px,2.4cqi,15px);color:var(--ink-soft)}
+.ee-pf-inner{max-width:var(--page-width);margin:0 auto;padding:0 clamp(16px,4vw,48px);display:grid;gap:var(--space-6);grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))}
+.ee-pf-col{display:flex;flex-direction:column;gap:6px;min-width:0}
+.ee-pf-col--wide,.ee-pf-col:has(.share-box),.ee-pf-col:has(.legal){grid-column:1/-1}
+.ee-pf-col strong{color:var(--ink);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.ee-pf-col a{color:var(--ink-soft);text-decoration:none}
+.ee-pf-col a:hover{color:var(--ink);text-decoration:underline}
+.ee-pf-fine{max-width:var(--page-width);margin:var(--space-6) auto 0;padding:var(--space-4) clamp(16px,4vw,48px) 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);font-size:13px;align-items:center}
+.ee-pf-fine a{color:var(--ink-soft);text-decoration:none}
+.ee-pf-fine a:hover{color:var(--ink);text-decoration:underline}
+.ee-pf-top{margin-left:auto}
+
+/* ---------- E. OBJECT REVIEW FOOTER (testnet only: html[data-review="on"]) ---------- */
+.ee-obj{position:relative}
+[data-review="on"] .ee-obj{container-type:inline-size}
+.ee-obj-review button{display:inline-flex;align-items:center;width:auto;margin:0}
+@container (max-width:320px){.ee-obj-review .ee-or-id{display:none}.ee-obj-review input{flex-basis:100%}}
+.ee-obj-review{display:none}
+[data-review="on"] .ee-obj-review{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);margin-top:var(--space-5);padding:10px 12px;border:1px dashed var(--line);border-radius:12px;font:13px/1.3 var(--font-body);color:var(--ink-soft);background:var(--surface,#fff)}
+.ee-obj-review .ee-or-id{font-family:ui-monospace,Menlo,monospace;font-size:12px;opacity:.75;margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-inline-size:40ch}
+.ee-obj-review button{appearance:none;border:1px solid var(--line);background:var(--bg,#fff);color:var(--ink);border-radius:999px;padding:6px 12px;font:600 12px/1 var(--font-body);cursor:pointer}
+.ee-obj-review button[data-v="yay"][aria-pressed="true"]{background:#1F7A4D;border-color:#1F7A4D;color:#fff}
+.ee-obj-review button[data-v="nay"][aria-pressed="true"]{background:#8A2B2B;border-color:#8A2B2B;color:#fff}
+.ee-obj-review input{flex:1 1 180px;min-width:0;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:13px var(--font-body);background:var(--bg,#fff);color:var(--ink)}
+.ee-obj-review .ee-or-ai{flex-basis:100%;font-size:12px;line-height:1.45;color:var(--ink-soft)}
+.ee-obj-review .ee-or-ai:empty{display:none}
+[data-review="on"] .ee-over-budget{outline:2px dashed #B5562F;outline-offset:3px}
+.ee-pf-approve{display:none}
+[data-review="on"] .ee-pf-approve{display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:center;max-width:var(--page-width);margin:var(--space-5) auto 0;padding:var(--space-4) clamp(16px,4vw,48px);font-size:14px;color:var(--ink)}
+.ee-pf-approve button{appearance:none;border:0;border-radius:999px;padding:10px 18px;font:600 14px/1 var(--font-body);background:var(--action);color:var(--on-action,#fff);cursor:pointer}
+.ee-pf-approve button[disabled]{opacity:.4;cursor:not-allowed}
+
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media print{.site-header,.ee-uh-drawer,.ee-obj-review,.ee-pf-approve{display:none!important}}
+
+/* Small screens (860px and under): brand + Menu only.
+   Every header link, including the action button, lives in the drop-down — never both.
+   The drop-down carries only this site's header links (no cross-site groups). */
+@media (max-width:860px){
+  .ee-uh-crumbs{display:none}
+  .ee-uh-nav{display:none}
+  .ee-uh-bar{gap:var(--space-3)}
+  .ee-uh-left{min-width:0}
+  .ee-uh-brand{min-width:0;overflow:hidden}
+  .ee-uh-brand>span:last-child{overflow:hidden;text-overflow:ellipsis}
+  .ee-uh-toggle{flex:none;min-height:44px;padding:10px 16px;font-size:15px}
+  .ee-uh-drawer .ee-uh-group:not(.ee-uh-pages){display:none}
+  .ee-uh-drawer .ee-uh-pages{grid-column:1/-1}
+  .ee-uh-drawer .ee-uh-pages h4{display:none}
+  .ee-uh-drawer-inner{display:block;padding:var(--space-2) clamp(16px,4vw,48px) var(--space-4)}
+  .ee-uh-pages a,.ee-uh-pages form{display:flex;align-items:center;min-height:48px;margin:0;padding:0 2px;font-size:17px;border-bottom:1px solid var(--line)}
+  .ee-uh-pages button.btn{color:var(--on-action,#fff);background:var(--action);font-size:16px;padding:10px 18px;border-radius:var(--radius-button,999px);border:0;font-family:var(--font-body);font-weight:600;cursor:pointer}
+  .ee-uh-pages > :last-child{border-bottom:0}
+}
+
+/* ---------- F. ESTIMATE & SUPPLEMENT UPLOAD PORTAL LAYOUT (TOKENS ONLY) ---------- */
+.portal-dropzone{border:2px dashed var(--line);border-radius:var(--radius-card,12px);padding:var(--space-5,24px);background:var(--soft);display:flex;flex-direction:column;gap:var(--space-3,12px)}
+.portal-photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--space-4,16px);margin-top:var(--space-4,16px)}
+.portal-photo-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card,12px);padding:var(--space-4,16px);display:flex;flex-direction:column;gap:var(--space-3,12px)}
+.portal-photo-thumb{width:100%;height:180px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:var(--soft)}
+.portal-photo-sheet{background:var(--surface);border:2px solid var(--line);border-radius:var(--radius-card,12px);padding:var(--space-5,24px);margin-top:var(--space-4,16px);display:flex;flex-direction:column;gap:var(--space-4,16px);page-break-after:always}
+.portal-sheet-pair{display:grid;grid-template-columns:1fr;gap:var(--space-4,16px)}
+.portal-sheet-slot{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--space-4,16px);padding:var(--space-4,16px);border:1px solid var(--line);border-radius:10px;background:var(--bg);align-items:start}
+@media (max-width:760px){.portal-sheet-slot{grid-template-columns:1fr}}
+.portal-sheet-img{width:100%;max-height:260px;object-fit:contain;border-radius:8px;border:1px solid var(--line);background:var(--surface)}
+.portal-code-box{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius-card,12px);padding:var(--space-4,16px);font-family:var(--font-body);font-size:13.5px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere}
+.portal-tabs{display:flex;flex-wrap:wrap;gap:var(--space-2,8px);margin-top:var(--space-4,16px);padding-bottom:var(--space-3,12px);border-bottom:1px solid var(--line)}
+[hidden]{display:none!important}
