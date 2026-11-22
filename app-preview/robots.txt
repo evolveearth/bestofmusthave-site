@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bestofmusthave.com/sitemap.xml

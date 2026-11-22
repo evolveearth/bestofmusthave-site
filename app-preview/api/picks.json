@@ -1,0 +1,2406 @@
+{
+ "name": "Best of Must Have",
+ "url": "https://bestofmusthave.com/",
+ "policy": "No paid placements. Affiliate links disclosed. Example picks are marked example:true until reviewed hands-on.",
+ "marketplaces": [
+  {
+   "slug": "root-her",
+   "area": "Root",
+   "life": "Home, safety and money",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/root-her/"
+  },
+  {
+   "slug": "root-him",
+   "area": "Root",
+   "life": "Home, safety and money",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/root-him/"
+  },
+  {
+   "slug": "sacral-her",
+   "area": "Sacral",
+   "life": "Pleasure, play and creativity",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/sacral-her/"
+  },
+  {
+   "slug": "sacral-him",
+   "area": "Sacral",
+   "life": "Pleasure, play and creativity",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/sacral-him/"
+  },
+  {
+   "slug": "solar-her",
+   "area": "Solar plexus",
+   "life": "Work, power and confidence",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/solar-her/"
+  },
+  {
+   "slug": "solar-him",
+   "area": "Solar plexus",
+   "life": "Work, power and confidence",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/solar-him/"
+  },
+  {
+   "slug": "heart-her",
+   "area": "Heart",
+   "life": "Love, gifts and healing",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/heart-her/"
+  },
+  {
+   "slug": "heart-him",
+   "area": "Heart",
+   "life": "Love, gifts and healing",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/heart-him/"
+  },
+  {
+   "slug": "throat-her",
+   "area": "Throat",
+   "life": "Voice and expression",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/throat-her/"
+  },
+  {
+   "slug": "throat-him",
+   "area": "Throat",
+   "life": "Voice and expression",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/throat-him/"
+  },
+  {
+   "slug": "thirdeye-her",
+   "area": "Third eye",
+   "life": "Insight, focus and learning",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/thirdeye-her/"
+  },
+  {
+   "slug": "thirdeye-him",
+   "area": "Third eye",
+   "life": "Insight, focus and learning",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/thirdeye-him/"
+  },
+  {
+   "slug": "crown-her",
+   "area": "Crown",
+   "life": "Peace, meaning and spirit",
+   "for": "her",
+   "url": "https://bestofmusthave.com/m/crown-her/"
+  },
+  {
+   "slug": "crown-him",
+   "area": "Crown",
+   "life": "Peace, meaning and spirit",
+   "for": "him",
+   "url": "https://bestofmusthave.com/m/crown-him/"
+  }
+ ],
+ "filters": [
+  {
+   "id": "occasion",
+   "label": "Occasion",
+   "options": [
+    "Birthday",
+    "Christmas",
+    "Hanukkah",
+    "Kwanzaa",
+    "Diwali",
+    "Lunar New Year",
+    "Eid",
+    "Passover",
+    "Easter",
+    "Thanksgiving",
+    "Halloween",
+    "New Year",
+    "Valentine's",
+    "Mother's Day",
+    "Father's Day",
+    "Anniversary",
+    "Wedding",
+    "Bridal shower",
+    "Baby shower",
+    "Graduation",
+    "Back to school",
+    "Teacher thanks",
+    "Housewarming",
+    "Retirement",
+    "Get well",
+    "Sympathy",
+    "Just because"
+   ]
+  },
+  {
+   "id": "tier",
+   "label": "Budget",
+   "options": [
+    "Luxury",
+    "$$$",
+    "$$",
+    "$",
+    "Free"
+   ]
+  },
+  {
+   "id": "kind",
+   "label": "Type",
+   "options": [
+    "Luxury goods",
+    "Courses",
+    "Digital products",
+    "Physical goods",
+    "Services",
+    "Experiences"
+   ]
+  },
+  {
+   "id": "speed",
+   "label": "Speed",
+   "options": [
+    "Instant download",
+    "Today",
+    "Within 2 days",
+    "This week"
+   ]
+  },
+  {
+   "id": "signal",
+   "label": "Signals",
+   "options": [
+    "Viral now",
+    "Most voted",
+    "Helped me",
+    "Most gifted",
+    "Made by us"
+   ]
+  },
+  {
+   "id": "need",
+   "label": "Needs",
+   "options": [
+    "Show up now",
+    "Price is no object",
+    "Beginner friendly",
+    "Earth friendly",
+    "Local",
+    "Handmade",
+    "Heirloom",
+    "For couples",
+    "For family",
+    "Self-care",
+    "Free to start",
+    "Calm the mind"
+   ]
+  },
+  {
+   "id": "who",
+   "label": "Recipient",
+   "options": [
+    "Partner",
+    "Mom",
+    "Dad",
+    "Friend",
+    "Coworker",
+    "Kid",
+    "Teen",
+    "Grandparent",
+    "New parent",
+    "Host"
+   ]
+  },
+  {
+   "id": "interest",
+   "label": "Interests",
+   "options": [
+    "Cooking",
+    "Coffee",
+    "Yoga",
+    "Meditation",
+    "Art",
+    "Music",
+    "Writing",
+    "AI",
+    "Outdoors",
+    "Games",
+    "Space",
+    "Sleep",
+    "Skincare",
+    "Home",
+    "Money",
+    "Career",
+    "Healing",
+    "Dreams",
+    "Voice"
+   ]
+  },
+  {
+   "id": "color",
+   "label": "Color",
+   "options": [
+    "Black",
+    "White",
+    "Indigo",
+    "Gold",
+    "Natural wood",
+    "Rose",
+    "Earth tones",
+    "Silver"
+   ]
+  },
+  {
+   "id": "size",
+   "label": "Size",
+   "options": [
+    "Pocket",
+    "Desk",
+    "Room",
+    "Wearable"
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "id": "storm-ready-roof-check",
+   "chakra": "root",
+   "kind": "service",
+   "tier": "$$$",
+   "title": "Storm-ready roof check",
+   "why": "A licensed roofer checks your roof before storm season and photographs every weak spot.",
+   "buy": "Homeowners in storm or hurricane country.",
+   "skip": "Renters, or a roof replaced in the last two years.",
+   "occasions": [
+    "housewarming"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "home",
+    "storm",
+    "contractor",
+    "roof",
+    "local"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "same-day-leak-repair-crew",
+   "chakra": "root",
+   "kind": "service",
+   "tier": "$$$",
+   "title": "Same-day leak repair crew",
+   "why": "For the night the ceiling drips: a crew that shows up now, price secondary.",
+   "buy": "Anyone with water coming in today.",
+   "skip": "Small stains you can watch for a week.",
+   "occasions": [],
+   "speed": "today",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "contractor",
+    "emergency",
+    "now",
+    "roof",
+    "water"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "72-hour-home-emergency-kit",
+   "chakra": "root",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "72-hour home emergency kit",
+   "why": "Water, light, power and first aid in one bag that lives by the door.",
+   "buy": "Families, new homeowners, storm regions.",
+   "skip": "People who already keep a full kit.",
+   "occasions": [
+    "housewarming",
+    "christmas"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "home",
+    "safety",
+    "storm",
+    "family"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "weighted-cashmere-throw",
+   "chakra": "root",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Weighted cashmere throw",
+   "why": "Heavy enough to calm the body, soft enough to live on the sofa.",
+   "buy": "Anyone who sleeps light or runs anxious.",
+   "skip": "Hot sleepers in warm climates.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "mothers",
+    "justbecause"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable",
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "sleep",
+    "calm",
+    "cozy",
+    "home"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "hand-forged-chef-s-knife",
+   "chakra": "root",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Hand-forged chef's knife",
+   "why": "One knife that does ninety percent of the cooking and lasts a lifetime.",
+   "buy": "People who cook most nights.",
+   "skip": "Anyone who would put it in a dishwasher.",
+   "occasions": [
+    "birthday",
+    "fathers",
+    "christmas",
+    "wedding"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "kitchen",
+    "craft",
+    "heirloom"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "money-foundations-in-10-lessons",
+   "chakra": "root",
+   "kind": "course",
+   "tier": "Free",
+   "title": "Money foundations in 10 lessons",
+   "why": "Budget, emergency fund and debt plan, in plain words, no upsell.",
+   "buy": "Anyone starting over or starting out.",
+   "skip": "People already investing on autopilot.",
+   "occasions": [
+    "newyear",
+    "graduation"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "money",
+    "beginner",
+    "learn"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "barefoot-grounding-shoes",
+   "chakra": "root",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Barefoot grounding shoes",
+   "why": "Thin soles that let your feet feel the ground again.",
+   "buy": "Walkers and people with stiff feet.",
+   "skip": "Anyone needing heavy arch support.",
+   "occasions": [
+    "birthday",
+    "fathers"
+   ],
+   "speed": "2day",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "body",
+    "walk",
+    "grounding"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "grounding-yoga-mat-cork",
+   "chakra": "root",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Grounding yoga mat, cork",
+   "why": "Natural cork that grips better the more you sweat.",
+   "buy": "Daily yoga and floor stretching.",
+   "skip": "Occasional stretchers who want cheap.",
+   "occasions": [
+    "birthday",
+    "mothers",
+    "newyear"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "yoga",
+    "body",
+    "eco"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "home-insurance-appraisal",
+   "chakra": "root",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Home insurance appraisal",
+   "why": "An independent appraiser when you and your insurer disagree on a claim.",
+   "buy": "Policyholders in a stalled claim dispute.",
+   "skip": "Claims that are moving fine.",
+   "occasions": [],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "appraiser",
+    "claim",
+    "insurance",
+    "home"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "home-inventory-photo-template",
+   "chakra": "root",
+   "kind": "eproduct",
+   "tier": "$",
+   "title": "Home inventory photo template",
+   "why": "Walk room to room once and have proof of everything you own.",
+   "buy": "Every homeowner and renter.",
+   "skip": "People who already have a current inventory.",
+   "occasions": [
+    "housewarming"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "home",
+    "insurance",
+    "storm",
+    "template"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "cast-iron-heirloom-skillet",
+   "chakra": "root",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Cast-iron heirloom skillet",
+   "why": "Seasoned, smooth and meant to be handed down.",
+   "buy": "Cooks who like one pan for everything.",
+   "skip": "Anyone who hates heavy pans.",
+   "occasions": [
+    "fathers",
+    "wedding",
+    "housewarming"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "kitchen",
+    "heirloom",
+    "craft"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "professional-home-organizer-1-day",
+   "chakra": "root",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Professional home organizer, 1 day",
+   "why": "A whole room cleared and set up in one visit.",
+   "buy": "Busy households and new moves.",
+   "skip": "People who enjoy sorting themselves.",
+   "occasions": [
+    "housewarming",
+    "mothers"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "home",
+    "calm",
+    "local"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "couples-connection-course",
+   "chakra": "sacral",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Couples connection course",
+   "why": "Short guided practices for touch, talk and presence together.",
+   "buy": "Couples who want more closeness.",
+   "skip": "People looking for therapy for a crisis.",
+   "occasions": [
+    "valentines",
+    "anniversary",
+    "wedding"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "couples",
+    "relationship",
+    "learn"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "mulberry-silk-robe",
+   "chakra": "sacral",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Mulberry silk robe",
+   "why": "Heavy silk that feels cool in summer and warm in winter.",
+   "buy": "Anyone who loves slow mornings.",
+   "skip": "Rough-and-tumble lounge wear lovers.",
+   "occasions": [
+    "valentines",
+    "birthday",
+    "anniversary",
+    "mothers"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable",
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "silk",
+    "comfort",
+    "self-care"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "single-origin-chocolate-tasting-box",
+   "chakra": "sacral",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Single-origin chocolate tasting box",
+   "why": "Twelve bars, tasting notes, and one evening to share it.",
+   "buy": "Food lovers and date nights.",
+   "skip": "People avoiding sugar.",
+   "occasions": [
+    "valentines",
+    "anniversary",
+    "birthday",
+    "christmas"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable",
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "taste",
+    "date",
+    "food"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "watercolor-travel-set",
+   "chakra": "sacral",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Watercolor travel set",
+   "why": "A pocket kit that makes painting a five-minute habit.",
+   "buy": "Beginners and travelers.",
+   "skip": "Painters who need large studio tubes.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "graduation"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "art",
+    "creative",
+    "beginner"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "couples-massage-class",
+   "chakra": "sacral",
+   "kind": "experience",
+   "tier": "$$$",
+   "title": "Couples massage class",
+   "why": "Learn to give a real massage together in one evening.",
+   "buy": "Partners who want a new date idea.",
+   "skip": "People uncomfortable with touch.",
+   "occasions": [
+    "valentines",
+    "anniversary"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "couples",
+    "massage",
+    "date",
+    "local"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "organic-massage-oil-set",
+   "chakra": "sacral",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Organic massage oil set",
+   "why": "Three unscented and lightly scented oils, cold pressed.",
+   "buy": "Massage at home and dry skin.",
+   "skip": "People with nut allergies (check oils).",
+   "occasions": [
+    "valentines",
+    "anniversary",
+    "justbecause"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "massage",
+    "skin",
+    "couples"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "beginner-salsa-at-home",
+   "chakra": "sacral",
+   "kind": "course",
+   "tier": "$",
+   "title": "Beginner salsa at home",
+   "why": "Ten short video lessons, no partner needed to start.",
+   "buy": "Anyone who wants to dance at the wedding.",
+   "skip": "Advanced dancers.",
+   "occasions": [
+    "wedding",
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "dance",
+    "learn",
+    "fun"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "52-date-night-prompts",
+   "chakra": "sacral",
+   "kind": "eproduct",
+   "tier": "Free",
+   "title": "52 date-night prompts",
+   "why": "One card a week for a year of better evenings.",
+   "buy": "Couples in a routine.",
+   "skip": "Brand new couples who need no help.",
+   "occasions": [
+    "valentines",
+    "anniversary"
+   ],
+   "speed": "instant",
+   "signals": [
+    "viral",
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "couples",
+    "date",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "pottery-starter-kit-air-dry",
+   "chakra": "sacral",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Pottery starter kit, air dry",
+   "why": "Clay, tools and a guide for a first set of bowls.",
+   "buy": "Hands-on creatives.",
+   "skip": "Anyone who wants a kiln finish.",
+   "occasions": [
+    "birthday",
+    "christmas"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "art",
+    "creative",
+    "craft"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "pour-over-coffee-ritual-set",
+   "chakra": "sacral",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Pour-over coffee ritual set",
+   "why": "Kettle, dripper and scale for a slower, better cup.",
+   "buy": "Coffee drinkers who rush.",
+   "skip": "Espresso-only people.",
+   "occasions": [
+    "fathers",
+    "birthday",
+    "christmas"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted",
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "coffee",
+    "ritual",
+    "kitchen"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "ai-powertoys",
+   "chakra": "solar",
+   "kind": "eproduct",
+   "tier": "Free",
+   "title": "AI PowerToys",
+   "why": "Our own desktop helpers that let AI agents drag, upload and work faster. Free for the first 10 feed subscribers.",
+   "buy": "People who work with AI agents every day.",
+   "skip": "Anyone who doesn't use AI on a computer.",
+   "occasions": [],
+   "speed": "instant",
+   "signals": [],
+   "owned_by_us": true,
+   "example": false,
+   "tags": [
+    "ai",
+    "tools",
+    "productivity",
+    "desktop"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "ai-agent-store-and-course",
+   "chakra": "solar",
+   "kind": "course",
+   "tier": "$$",
+   "title": "AI agent store and course",
+   "why": "Our own course on building and selling small AI agents.",
+   "buy": "Builders and solo founders.",
+   "skip": "People who want no-code only.",
+   "occasions": [
+    "newyear",
+    "graduation"
+   ],
+   "speed": "instant",
+   "signals": [],
+   "owned_by_us": true,
+   "example": false,
+   "tags": [
+    "ai",
+    "learn",
+    "business"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "10-marketplace-publisher",
+   "chakra": "solar",
+   "kind": "eproduct",
+   "tier": "$",
+   "title": "10-marketplace publisher",
+   "why": "Our own tool for listing one product on ten marketplaces at once.",
+   "buy": "Sellers tired of copy and paste.",
+   "skip": "People with one shop only.",
+   "occasions": [],
+   "speed": "instant",
+   "signals": [],
+   "owned_by_us": true,
+   "example": false,
+   "tags": [
+    "ai",
+    "selling",
+    "business",
+    "tools"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "electric-standing-desk-solid-oak",
+   "chakra": "solar",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Electric standing desk, solid oak",
+   "why": "A desk that moves with you and looks like furniture.",
+   "buy": "People at a desk eight hours a day.",
+   "skip": "Small rooms and occasional laptop use.",
+   "occasions": [
+    "fathers",
+    "newyear"
+   ],
+   "speed": "week",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "desk",
+    "work",
+    "body"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "confident-speaking-in-30-days",
+   "chakra": "solar",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Confident speaking in 30 days",
+   "why": "Daily ten-minute drills that make speaking up feel normal.",
+   "buy": "Anyone dreading their next meeting.",
+   "skip": "Experienced stage speakers.",
+   "occasions": [
+    "graduation",
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "career",
+    "confidence",
+    "voice"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "career-coach-3-sessions",
+   "chakra": "solar",
+   "kind": "service",
+   "tier": "$$$",
+   "title": "Career coach, 3 sessions",
+   "why": "A clear plan for the next role and the words to ask for it.",
+   "buy": "People stuck or switching careers.",
+   "skip": "People happy where they are.",
+   "occasions": [
+    "graduation",
+    "newyear"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "career",
+    "coach"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "adjustable-kettlebell",
+   "chakra": "solar",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Adjustable kettlebell",
+   "why": "One bell that replaces a rack, for strength in a corner.",
+   "buy": "Home workouts with little space.",
+   "skip": "Gym members who never train at home.",
+   "occasions": [
+    "fathers",
+    "newyear",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "strength",
+    "body",
+    "home"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "leather-work-tote",
+   "chakra": "solar",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Leather work tote",
+   "why": "Holds a laptop and looks good at dinner after.",
+   "buy": "Commuters and consultants.",
+   "skip": "People who need a backpack.",
+   "occasions": [
+    "birthday",
+    "graduation",
+    "christmas"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable",
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "work",
+    "style",
+    "leather"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "weekly-planning-template",
+   "chakra": "solar",
+   "kind": "eproduct",
+   "tier": "$",
+   "title": "Weekly planning template",
+   "why": "One page that turns a messy week into three clear wins.",
+   "buy": "Overloaded people.",
+   "skip": "Anyone happy with their planner.",
+   "occasions": [
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "planning",
+    "productivity",
+    "template"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "automatic-dive-watch",
+   "chakra": "solar",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Automatic dive watch",
+   "why": "A tough everyday watch that needs no battery.",
+   "buy": "People who wear one watch daily.",
+   "skip": "Smartwatch loyalists.",
+   "occasions": [
+    "graduation",
+    "fathers",
+    "anniversary",
+    "retirement"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "watch",
+    "style",
+    "heirloom"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "rose-skincare-ritual",
+   "chakra": "heart",
+   "kind": "physical",
+   "tier": "$$$",
+   "title": "Rose skincare ritual",
+   "why": "Rose-based cleanser, toner and balm for calm, dewy skin. Marketplace opening soon.",
+   "buy": "Dry or sensitive skin.",
+   "skip": "Anyone allergic to rose.",
+   "occasions": [
+    "mothers",
+    "valentines",
+    "birthday",
+    "christmas"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "skincare",
+    "rose",
+    "self-care"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "sound-bath-private-session",
+   "chakra": "heart",
+   "kind": "experience",
+   "tier": "$$",
+   "title": "Sound bath, private session",
+   "why": "An hour of bowls and gongs that leaves the chest light.",
+   "buy": "Stressed hearts and grieving people.",
+   "skip": "People sensitive to loud sound.",
+   "occasions": [
+    "getwell",
+    "birthday",
+    "justbecause"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "healing",
+    "sound",
+    "calm"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "cashmere-wrap",
+   "chakra": "heart",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Cashmere wrap",
+   "why": "The softest layer you'll reach for every day.",
+   "buy": "Anyone who runs cold.",
+   "skip": "Warm climates year round.",
+   "occasions": [
+    "mothers",
+    "christmas",
+    "anniversary",
+    "birthday"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable",
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "cashmere",
+    "comfort",
+    "style"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "leather-gratitude-journal",
+   "chakra": "heart",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Leather gratitude journal",
+   "why": "A refillable journal for three lines of thanks a night.",
+   "buy": "People rebuilding a daily habit.",
+   "skip": "Digital-only note takers.",
+   "occasions": [
+    "fathers",
+    "christmas",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "journal",
+    "gratitude"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "self-compassion-in-21-days",
+   "chakra": "heart",
+   "kind": "course",
+   "tier": "Free",
+   "title": "Self-compassion in 21 days",
+   "why": "Short practices for being kind to yourself on hard days.",
+   "buy": "Self-critics.",
+   "skip": "People who need clinical care now.",
+   "occasions": [
+    "getwell",
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "healing",
+    "learn",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "custom-family-portrait-illustration",
+   "chakra": "heart",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Custom family portrait illustration",
+   "why": "A hand-drawn portrait from your photos.",
+   "buy": "Gifts for parents and grandparents.",
+   "skip": "Last-minute shoppers (two weeks).",
+   "occasions": [
+    "mothers",
+    "fathers",
+    "anniversary",
+    "christmas"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable",
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "gift",
+    "custom",
+    "art"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "fresh-flower-subscription",
+   "chakra": "heart",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Fresh flower subscription",
+   "why": "Seasonal flowers at the door every two weeks.",
+   "buy": "People who love a living home.",
+   "skip": "Pet homes with toxic-plant worries.",
+   "occasions": [
+    "mothers",
+    "valentines",
+    "getwell",
+    "birthday"
+   ],
+   "speed": "today",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "flowers",
+    "home",
+    "gift"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "father-and-kid-camping-weekend",
+   "chakra": "heart",
+   "kind": "experience",
+   "tier": "$$$",
+   "title": "Father and kid camping weekend",
+   "why": "A guided weekend outdoors with everything provided.",
+   "buy": "Dads wanting time without screens.",
+   "skip": "People who need hotel comfort.",
+   "occasions": [
+    "fathers",
+    "birthday"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "outdoor",
+    "family"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "handwritten-letter-kit",
+   "chakra": "heart",
+   "kind": "physical",
+   "tier": "$",
+   "title": "Handwritten letter kit",
+   "why": "Paper, envelopes and prompts to write the letter you owe.",
+   "buy": "Anyone with words left unsaid.",
+   "skip": "People who prefer to call.",
+   "occasions": [
+    "justbecause",
+    "anniversary",
+    "thanksgiving"
+   ],
+   "speed": "2day",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "letters",
+    "love",
+    "gift"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "heart-opening-yoga-series",
+   "chakra": "heart",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Heart-opening yoga series",
+   "why": "Twelve gentle classes focused on chest, shoulders and breath.",
+   "buy": "Desk workers with tight shoulders.",
+   "skip": "Advanced power yoga fans.",
+   "occasions": [
+    "newyear",
+    "mothers"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "yoga",
+    "healing",
+    "body"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "gift-finder-conversation",
+   "chakra": "heart",
+   "kind": "eproduct",
+   "tier": "Free",
+   "title": "Gift-finder conversation",
+   "why": "Tell us who it's for and we find the gift. Christmas finder inside.",
+   "buy": "Anyone stuck on a gift.",
+   "skip": "People who already know what to buy.",
+   "occasions": [
+    "christmas",
+    "birthday",
+    "hanukkah",
+    "diwali"
+   ],
+   "speed": "instant",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "gift",
+    "finder",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "engraved-heirloom-ring-box",
+   "chakra": "heart",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Engraved heirloom ring box",
+   "why": "A wooden box made for one question.",
+   "buy": "Planning a proposal.",
+   "skip": "Not yet.",
+   "occasions": [
+    "anniversary",
+    "valentines",
+    "wedding"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "proposal",
+    "heirloom",
+    "wedding"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "podcast-microphone-studio-grade",
+   "chakra": "throat",
+   "kind": "physical",
+   "tier": "$$$",
+   "title": "Podcast microphone, studio grade",
+   "why": "Clear, warm voice in an untreated room.",
+   "buy": "New podcasters and voice workers.",
+   "skip": "Casual video callers.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "graduation"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "voice",
+    "podcast",
+    "creator"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "singing-for-beginners",
+   "chakra": "throat",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Singing for beginners",
+   "why": "Breath, pitch and confidence in short daily lessons.",
+   "buy": "People who sing only in the car.",
+   "skip": "Trained singers.",
+   "occasions": [
+    "birthday",
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "voice",
+    "singing",
+    "learn"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "loose-leaf-herbal-tea-set",
+   "chakra": "throat",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Loose-leaf herbal tea set",
+   "why": "Six soothing blends for the throat and the evening.",
+   "buy": "Talkers, teachers, tea lovers.",
+   "skip": "Coffee-only drinkers.",
+   "occasions": [
+    "christmas",
+    "getwell",
+    "mothers"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "tea",
+    "calm",
+    "throat"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "storytelling-for-leaders",
+   "chakra": "throat",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Storytelling for leaders",
+   "why": "How to tell the story that gets the yes.",
+   "buy": "Founders and managers.",
+   "skip": "People who never present.",
+   "occasions": [
+    "newyear",
+    "graduation"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "voice",
+    "career",
+    "leadership"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "hard-conversation-scripts",
+   "chakra": "throat",
+   "kind": "eproduct",
+   "tier": "Free",
+   "title": "Hard conversation scripts",
+   "why": "Word-for-word openers for talks you've been avoiding.",
+   "buy": "Anyone putting off a talk.",
+   "skip": "People in danger: get real help.",
+   "occasions": [
+    "justbecause"
+   ],
+   "speed": "instant",
+   "signals": [
+    "viral",
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "communication",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "fountain-pen-and-ink-set",
+   "chakra": "throat",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Fountain pen and ink set",
+   "why": "A pen that makes writing feel like ceremony.",
+   "buy": "Letter writers and journalers.",
+   "skip": "Left-handed fast writers (smudge).",
+   "occasions": [
+    "graduation",
+    "christmas",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "writing",
+    "pen",
+    "heirloom"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "portable-recorder-for-field-audio",
+   "chakra": "throat",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Portable recorder for field audio",
+   "why": "Capture sound, interviews and ideas anywhere.",
+   "buy": "Creators and musicians.",
+   "skip": "People happy with phone audio.",
+   "occasions": [
+    "christmas",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "audio",
+    "creator",
+    "music"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "voice-coach-4-sessions",
+   "chakra": "throat",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Voice coach, 4 sessions",
+   "why": "Speak with a fuller, steadier voice.",
+   "buy": "Presenters and people who get hoarse.",
+   "skip": "Singers needing an opera teacher.",
+   "occasions": [
+    "newyear"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "voice",
+    "coach"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "write-a-book-in-90-days",
+   "chakra": "throat",
+   "kind": "course",
+   "tier": "$",
+   "title": "Write a book in 90 days",
+   "why": "Daily prompts and a finish-line plan.",
+   "buy": "First-time authors.",
+   "skip": "Published pros.",
+   "occasions": [
+    "newyear",
+    "birthday"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "writing",
+    "learn",
+    "creative"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "linen-journal-and-wax-seal-kit",
+   "chakra": "throat",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Linen journal and wax seal kit",
+   "why": "For letters worth sealing.",
+   "buy": "Romantic letter writers.",
+   "skip": "Minimalists.",
+   "occasions": [
+    "valentines",
+    "anniversary"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "letters",
+    "writing",
+    "gift"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "meditation-headband-with-feedback",
+   "chakra": "thirdeye",
+   "kind": "physical",
+   "tier": "$$$",
+   "title": "Meditation headband with feedback",
+   "why": "Gentle sound cues when your mind wanders.",
+   "buy": "People who can't tell if they're meditating right.",
+   "skip": "Anyone wanting zero tech in practice.",
+   "occasions": [
+    "newyear",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "meditation",
+    "focus",
+    "tech"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "hand-illustrated-oracle-deck",
+   "chakra": "thirdeye",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Hand-illustrated oracle deck",
+   "why": "A deck for reflection, journaling and daily questions.",
+   "buy": "Reflective journalers.",
+   "skip": "People wanting predictions.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "justbecause"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable",
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "oracle",
+    "reflection",
+    "intuition"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "smart-telescope",
+   "chakra": "thirdeye",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Smart telescope",
+   "why": "Finds galaxies for you and shows them on your phone.",
+   "buy": "Curious minds in dark-sky places.",
+   "skip": "City balconies with heavy light.",
+   "occasions": [
+    "christmas",
+    "birthday",
+    "fathers",
+    "retirement"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable",
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "space",
+    "learning",
+    "wonder"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "learn-to-use-ai-in-one-weekend",
+   "chakra": "thirdeye",
+   "kind": "course",
+   "tier": "Free",
+   "title": "Learn to use AI in one weekend",
+   "why": "Practical AI skills for real work, from zero.",
+   "buy": "Anyone feeling left behind by AI.",
+   "skip": "Developers already shipping AI.",
+   "occasions": [
+    "newyear",
+    "graduation"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped",
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "ai",
+    "learn",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "contoured-sleep-mask",
+   "chakra": "thirdeye",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Contoured sleep mask",
+   "why": "Total dark for deeper sleep and vivid dreams.",
+   "buy": "Light sleepers and travelers.",
+   "skip": "People who hate anything on the face.",
+   "occasions": [
+    "christmas",
+    "birthday",
+    "justbecause"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted",
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "sleep",
+    "dreams",
+    "travel"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "intuition-and-decision-journal-course",
+   "chakra": "thirdeye",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Intuition and decision journal course",
+   "why": "A method for noticing gut feelings before big choices.",
+   "buy": "Over-thinkers.",
+   "skip": "People wanting fortune telling.",
+   "occasions": [
+    "newyear",
+    "birthday"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "intuition",
+    "journal",
+    "learn"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "strategy-board-game-deep",
+   "chakra": "thirdeye",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Strategy board game, deep",
+   "why": "A game that rewards long thinking over luck.",
+   "buy": "Game nights with thinkers.",
+   "skip": "Party-game crowds.",
+   "occasions": [
+    "christmas",
+    "birthday",
+    "fathers"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "games",
+    "strategy",
+    "family"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "focus-soundscapes-pack",
+   "chakra": "thirdeye",
+   "kind": "eproduct",
+   "tier": "$",
+   "title": "Focus soundscapes pack",
+   "why": "Ninety minutes of tuned sound for deep work.",
+   "buy": "Open offices and busy homes.",
+   "skip": "People who need silence.",
+   "occasions": [],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "focus",
+    "sound",
+    "work"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "clarity-session-with-a-coach",
+   "chakra": "thirdeye",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Clarity session with a coach",
+   "why": "One session to see the decision you're stuck on clearly.",
+   "buy": "People facing a fork in the road.",
+   "skip": "Clinical anxiety: see a doctor.",
+   "occasions": [
+    "newyear",
+    "graduation"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "coach",
+    "clarity",
+    "decision"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "amethyst-desk-lamp",
+   "chakra": "thirdeye",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Amethyst desk lamp",
+   "why": "Soft, warm light from a cut stone base.",
+   "buy": "Evening readers.",
+   "skip": "Bright task-light needs.",
+   "occasions": [
+    "birthday",
+    "housewarming",
+    "christmas"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "light",
+    "home",
+    "calm"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "speed-reading-that-sticks",
+   "chakra": "thirdeye",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Speed reading that sticks",
+   "why": "Read faster without losing what you read.",
+   "buy": "Heavy readers and students.",
+   "skip": "People who read for pleasure only.",
+   "occasions": [
+    "graduation",
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "learning",
+    "reading"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "lucid-dream-journal",
+   "chakra": "thirdeye",
+   "kind": "physical",
+   "tier": "$",
+   "title": "Lucid dream journal",
+   "why": "A bedside journal built for remembering dreams.",
+   "buy": "Dream curious people.",
+   "skip": "People who sleep poorly already.",
+   "occasions": [
+    "justbecause",
+    "birthday"
+   ],
+   "speed": "2day",
+   "signals": [
+    "viral"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "dreams",
+    "journal"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "silent-meditation-retreat-5-days",
+   "chakra": "crown",
+   "kind": "experience",
+   "tier": "Luxury",
+   "title": "Silent meditation retreat, 5 days",
+   "why": "Five days of quiet that resets the whole year.",
+   "buy": "People craving real stillness.",
+   "skip": "First-time meditators wanting easy.",
+   "occasions": [
+    "birthday",
+    "newyear",
+    "retirement"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "retreat",
+    "meditation",
+    "peace"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "buckwheat-meditation-cushion",
+   "chakra": "crown",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Buckwheat meditation cushion",
+   "why": "The cushion that makes sitting still comfortable.",
+   "buy": "Daily sitters.",
+   "skip": "Chair meditators.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "mothers"
+   ],
+   "speed": "2day",
+   "signals": [
+    "voted"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "meditation",
+    "body"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "hand-hammered-singing-bowl",
+   "chakra": "crown",
+   "kind": "physical",
+   "tier": "$$$",
+   "title": "Hand-hammered singing bowl",
+   "why": "A rich, long tone made by hand.",
+   "buy": "Sound practitioners and meditators.",
+   "skip": "Light sleepers sharing walls.",
+   "occasions": [
+    "birthday",
+    "christmas",
+    "fathers"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "sound",
+    "meditation",
+    "craft"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "mindfulness-basics-8-weeks",
+   "chakra": "crown",
+   "kind": "course",
+   "tier": "Free",
+   "title": "Mindfulness basics, 8 weeks",
+   "why": "The classic eight-week course, in short daily sessions.",
+   "buy": "Beginners.",
+   "skip": "People who want instant fixes.",
+   "occasions": [
+    "newyear",
+    "getwell"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "meditation",
+    "learn",
+    "free"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "legacy-and-will-planning",
+   "chakra": "crown",
+   "kind": "service",
+   "tier": "$$$",
+   "title": "Legacy and will planning",
+   "why": "Put your wishes in order, kindly and clearly.",
+   "buy": "Parents and anyone over forty.",
+   "skip": "People with a current will.",
+   "occasions": [
+    "retirement"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "legacy",
+    "family",
+    "planning"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "wellness-retreat-weekend",
+   "chakra": "crown",
+   "kind": "luxury",
+   "tier": "Luxury",
+   "title": "Wellness retreat weekend",
+   "why": "Two days of rest, good food and nature.",
+   "buy": "Burned-out caregivers.",
+   "skip": "People who hate group schedules.",
+   "occasions": [
+    "mothers",
+    "birthday",
+    "anniversary"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "retreat",
+    "rest",
+    "self-care"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "daily-wisdom-audio",
+   "chakra": "crown",
+   "kind": "eproduct",
+   "tier": "$",
+   "title": "Daily wisdom audio",
+   "why": "Three minutes a morning from the great teachers.",
+   "buy": "Busy people wanting a calm start.",
+   "skip": "People who dislike audio.",
+   "occasions": [
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "wisdom",
+    "audio",
+    "morning"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "guided-forest-walk",
+   "chakra": "crown",
+   "kind": "experience",
+   "tier": "$$",
+   "title": "Guided forest walk",
+   "why": "A slow, guided walk that quiets the mind.",
+   "buy": "City people.",
+   "skip": "Mobility limits on trails.",
+   "occasions": [
+    "fathers",
+    "birthday"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "nature",
+    "peace",
+    "local"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "beeswax-candle-set",
+   "chakra": "crown",
+   "kind": "physical",
+   "tier": "$$",
+   "title": "Beeswax candle set",
+   "why": "Clean, honey-scented light for evening practice.",
+   "buy": "Evening rituals.",
+   "skip": "Scent-sensitive homes.",
+   "occasions": [
+    "christmas",
+    "hanukkah",
+    "diwali",
+    "housewarming"
+   ],
+   "speed": "2day",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "candles",
+    "ritual",
+    "home"
+   ],
+   "url": null,
+   "for": "all"
+  },
+  {
+   "id": "breathwork-foundations",
+   "chakra": "crown",
+   "kind": "course",
+   "tier": "$$",
+   "title": "Breathwork foundations",
+   "why": "Simple breath practices for calm and energy.",
+   "buy": "Stressed people.",
+   "skip": "People with heart or lung conditions: ask your doctor.",
+   "occasions": [
+    "newyear"
+   ],
+   "speed": "instant",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "breath",
+    "calm",
+    "learn"
+   ],
+   "url": null,
+   "for": "her"
+  },
+  {
+   "id": "wooden-meditation-bench",
+   "chakra": "crown",
+   "kind": "luxury",
+   "tier": "$$$",
+   "title": "Wooden meditation bench",
+   "why": "Kneel comfortably for long sits.",
+   "buy": "Kneeling meditators.",
+   "skip": "Bad knees.",
+   "occasions": [
+    "christmas",
+    "fathers"
+   ],
+   "speed": "week",
+   "signals": [
+    "giftable"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "meditation",
+    "craft"
+   ],
+   "url": null,
+   "for": "him"
+  },
+  {
+   "id": "spiritual-direction-monthly",
+   "chakra": "crown",
+   "kind": "service",
+   "tier": "$$",
+   "title": "Spiritual direction, monthly",
+   "why": "A steady guide for the questions that matter most.",
+   "buy": "Seekers in transition.",
+   "skip": "People wanting quick answers.",
+   "occasions": [
+    "newyear"
+   ],
+   "speed": "week",
+   "signals": [
+    "helped"
+   ],
+   "owned_by_us": false,
+   "example": true,
+   "tags": [
+    "spiritual",
+    "coach"
+   ],
+   "url": null,
+   "for": "all"
+  }
+ ]
+}
